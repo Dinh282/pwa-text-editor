@@ -12,7 +12,6 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
   try {
     const db = await openDB('jate', 1);
@@ -22,7 +21,6 @@ export const putDb = async (content) => {
     //Here we are removing 'id' property from the content before adding it to the db.
     const contentWithoutId = { ...content };
     delete contentWithoutId.id;
-
     await store.put(contentWithoutId);
     console.log('Content added to the database:', contentWithoutId);
   } catch (error) {
@@ -30,7 +28,6 @@ export const putDb = async (content) => {
   }
 };
 
-// TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
   console.log('GET from the database');
 
