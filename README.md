@@ -52,6 +52,11 @@ open it with VS Code.
 or view the demo video below:
 
 
+
+https://github.com/Dinh282/pwa-text-editor/assets/112836220/105bdc9c-c446-4570-9015-984c8c51454c
+
+
+
 The following are screenshots of :
 
 :
