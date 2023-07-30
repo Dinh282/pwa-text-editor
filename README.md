@@ -57,10 +57,19 @@ https://github.com/Dinh282/pwa-text-editor/assets/112836220/105bdc9c-c446-4570-9
 
 
 
-The following are screenshots of :
+The following are screenshots of PWA Text Editor:
 
-:
-![Screenshot of ](./assets/images/)
+Screenshot of Stand Alone App:
+![Screenshot of Installed App](./assets/images/PWA-text-editor-stand-alone.jpg)
+
+Screenshot of Manifest File:
+![Screenshot of Manifest File](./assets/images/PWA-text-editor-manifest.jpg)
+
+Screenshot of Service Workers:
+![Screenshot of Service Workers](./assets/images/PWA-text-editor-sw.jpg)
+
+Screenshot of IndexedDB:
+![Screenshot of IndexedDB](./assets/images/PWA-text-editor-indexeddb.jpg)
 
 
 
