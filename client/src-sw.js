@@ -4,7 +4,6 @@ const { registerRoute } = require('workbox-routing');
 const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
 const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
-const { StaleWhileRevalidate } = require('workbox-strategies');
 
 precacheAndRoute(self.__WB_MANIFEST);
 
@@ -30,7 +29,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 registerRoute(
 // Here we define the callback function that will filter the requests we want to cache (in this case, CSS, JS, worker, and image files)
 ({ request }) => ['style', 'script', 'worker', 'image'].includes(request.destination),
-new StaleWhileRevalidate({
+new CacheFirst({
   // Name of the cache storage.
   cacheName: 'asset-cache',
   plugins: [

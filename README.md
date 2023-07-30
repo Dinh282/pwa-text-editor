@@ -46,8 +46,7 @@ open it with VS Code.
 - Rest assured that the text you type in the editor will persist across different scenarios, including exiting the app, transitioning between the browser and the standalone version, or switching between online and offline modes.
 
 
-- Alternatively, you can interact with the live app deployed at: 
-
+- Alternatively, you can interact with the live app deployed at: https://still-anchorage-67038-17721ce39121.herokuapp.com/
 
 
 or view the demo video below:
